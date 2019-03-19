@@ -8,12 +8,11 @@
     "install": "node-gyp rebuild"
   },
   "dependencies": {
+    "@caspertech/node-cmake": "^2.5.1",
     "eventemitter3": "^3.0.1",
     "nan": "^2.8.0"
   },
-  "devDependencies": {
-    "node-gyp": "^3.6.2"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meldron/node-alsa-capture.git"

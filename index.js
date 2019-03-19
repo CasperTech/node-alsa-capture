@@ -1,5 +1,7 @@
+"use strict";
 const EventEmitter = require("eventemitter3");
-const Capture = require("./build/Release/capture");
+const cmake = require("@caspertech/node-cmake");
+const Capture = cmake('node_alsa', false, __dirname);
 
 class AlsaCapture extends EventEmitter {
     constructor(opts) {
