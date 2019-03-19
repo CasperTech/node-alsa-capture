@@ -1,5 +1,5 @@
 {
-  "name": "alsa-capture",
+  "name": "@augmentality/node-alsa",
   "version": "0.1.2",
   "description": "capture alsa pcm packages",
   "main": "index.js",
